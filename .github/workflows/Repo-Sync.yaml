@@ -37,4 +37,8 @@ jobs:
           bash Scripts/Sync.sh \
             https://github.com/Aaron-lv/sync jd_scripts \
             https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/bbbup/Aaron-lv
-            
+      - name: Novl24
+        run: |
+          bash Scripts/Sync.sh \
+            https://github.com/Novl24/sync main \
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/bbbup/Novl24    
